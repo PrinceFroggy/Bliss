@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  Bliss
 //
-//  Created by Ethan Macanas on 6/2/20.
+//  Created by Andrew Solesa on 6/2/20.
 //  Copyright © 2020 KSG. All rights reserved.
 //
 
