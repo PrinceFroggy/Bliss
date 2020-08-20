@@ -9,7 +9,7 @@
 import UIKit
 import WebKit
 
-class CaptchaViewController: UIViewController {
+class ViewControllerCaptcha: UIViewController {
     
     @IBOutlet weak var webview: WKWebView!
     
