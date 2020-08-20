@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A004E7924650EB4003CAA78 /* ViewControllerSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A004E7824650EB4003CAA78 /* ViewControllerSettings.swift */; };
+		3C9B435032290461F701BEBB /* Pods_Bliss.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46D90C9BFC798C76FBDD3EF5 /* Pods_Bliss.framework */; };
+		4926A6EF23F0DB210091E7AD /* DataModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926A6EE23F0DB210091E7AD /* DataModelManager.swift */; };
+		4926A6F123F0DB600091E7AD /* CDStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926A6F023F0DB600091E7AD /* CDStack.swift */; };
+		4926A6F323F0DC1F0091E7AD /* DataModelClasses.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926A6F223F0DC1F0091E7AD /* DataModelClasses.swift */; };
+		4926A6F523F0E83B0091E7AD /* TabViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4926A6F423F0E83B0091E7AD /* TabViewController.swift */; };
+		495F72C823EB9EB600FCBCB1 /* ViewControllerBliss.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72C723EB9EB600FCBCB1 /* ViewControllerBliss.swift */; };
+		495F72CA23EBB3E000FCBCB1 /* BaseTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72C923EBB3E000FCBCB1 /* BaseTabBarController.swift */; };
+		495F72CC23EBB87A00FCBCB1 /* ViewControllerTabOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72CB23EBB87A00FCBCB1 /* ViewControllerTabOne.swift */; };
+		495F72CE23EBB96C00FCBCB1 /* ViewControllerTabTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72CD23EBB96C00FCBCB1 /* ViewControllerTabTwo.swift */; };
+		495F72D023EBB9C500FCBCB1 /* ViewControllerTabThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72CF23EBB9C500FCBCB1 /* ViewControllerTabThree.swift */; };
+		495F72D223EBB9DE00FCBCB1 /* ViewControllerTabFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 495F72D123EBB9DE00FCBCB1 /* ViewControllerTabFour.swift */; };
+		495F72D623EBC17100FCBCB1 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 495F72D423EBBFA100FCBCB1 /* WebKit.framework */; };
+		496845CE24A4670600ACC7C6 /* WebhookEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496845CB24A4670600ACC7C6 /* WebhookEntity+CoreDataProperties.swift */; };
+		496845CF24A4670600ACC7C6 /* DiscordWebhookWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496845CC24A4670600ACC7C6 /* DiscordWebhookWrapper.swift */; };
+		496845D024A4670600ACC7C6 /* WebhookEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 496845CD24A4670600ACC7C6 /* WebhookEntity+CoreDataClass.swift */; };
+		499826BF244D42AE001F2305 /* WebApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 499826BE244D42AE001F2305 /* WebApiRequest.swift */; };
+		49E6FAC723F8D13E00B8439B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 49E6FAC623F8D13E00B8439B /* GoogleService-Info.plist */; };
+		49E6FAC923F8D16500B8439B /* jquery.js in Resources */ = {isa = PBXBuildFile; fileRef = 49E6FAC823F8D16500B8439B /* jquery.js */; };
+		49E6FACB23F8D56900B8439B /* FirebaseAuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49E6FACA23F8D56900B8439B /* FirebaseAuthManager.swift */; };
+		49E6FACE23F8E86200B8439B /* NetworkExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49E6FACD23F8E86200B8439B /* NetworkExtension.framework */; };
+		49F0374323E89EB700822CA7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0374223E89EB700822CA7 /* AppDelegate.swift */; };
+		49F0374723E89EB700822CA7 /* ViewControllerLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F0374623E89EB700822CA7 /* ViewControllerLogin.swift */; };
+		49F0374A23E89EB700822CA7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F0374823E89EB700822CA7 /* Main.storyboard */; };
+		49F0374D23E89EB700822CA7 /* Bliss.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 49F0374B23E89EB700822CA7 /* Bliss.xcdatamodeld */; };
+		49F0374F23E89EB900822CA7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 49F0374E23E89EB900822CA7 /* Assets.xcassets */; };
+		49F0375223E89EB900822CA7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49F0375023E89EB900822CA7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0A004E7824650EB4003CAA78 /* ViewControllerSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerSettings.swift; sourceTree = "<group>"; };
+		381927BF465F807B3F5506FE /* Pods-Bliss.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bliss.debug.xcconfig"; path = "Target Support Files/Pods-Bliss/Pods-Bliss.debug.xcconfig"; sourceTree = "<group>"; };
+		46D90C9BFC798C76FBDD3EF5 /* Pods_Bliss.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bliss.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4926A6EA23EF47E80091E7AD /* Fuzi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Fuzi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4926A6EE23F0DB210091E7AD /* DataModelManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelManager.swift; sourceTree = "<group>"; };
+		4926A6F023F0DB600091E7AD /* CDStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CDStack.swift; sourceTree = "<group>"; };
+		4926A6F223F0DC1F0091E7AD /* DataModelClasses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModelClasses.swift; sourceTree = "<group>"; };
+		4926A6F423F0E83B0091E7AD /* TabViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabViewController.swift; sourceTree = "<group>"; };
+		495F72C723EB9EB600FCBCB1 /* ViewControllerBliss.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerBliss.swift; sourceTree = "<group>"; };
+		495F72C923EBB3E000FCBCB1 /* BaseTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTabBarController.swift; sourceTree = "<group>"; };
+		495F72CB23EBB87A00FCBCB1 /* ViewControllerTabOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTabOne.swift; sourceTree = "<group>"; };
+		495F72CD23EBB96C00FCBCB1 /* ViewControllerTabTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTabTwo.swift; sourceTree = "<group>"; };
+		495F72CF23EBB9C500FCBCB1 /* ViewControllerTabThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTabThree.swift; sourceTree = "<group>"; };
+		495F72D123EBB9DE00FCBCB1 /* ViewControllerTabFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTabFour.swift; sourceTree = "<group>"; };
+		495F72D423EBBFA100FCBCB1 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		495F72D923EBC1FC00FCBCB1 /* Bliss.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Bliss.entitlements; sourceTree = "<group>"; };
+		496845CB24A4670600ACC7C6 /* WebhookEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebhookEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		496845CC24A4670600ACC7C6 /* DiscordWebhookWrapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscordWebhookWrapper.swift; sourceTree = "<group>"; };
+		496845CD24A4670600ACC7C6 /* WebhookEntity+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "WebhookEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		499826BE244D42AE001F2305 /* WebApiRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebApiRequest.swift; sourceTree = "<group>"; };
+		49E6FAC623F8D13E00B8439B /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		49E6FAC823F8D16500B8439B /* jquery.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = jquery.js; sourceTree = SOURCE_ROOT; };
+		49E6FACA23F8D56900B8439B /* FirebaseAuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseAuthManager.swift; sourceTree = "<group>"; };
+		49E6FACC23F8D8A600B8439B /* bliss-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "bliss-Bridging-Header.h"; sourceTree = "<group>"; };
+		49E6FACD23F8E86200B8439B /* NetworkExtension.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NetworkExtension.framework; path = System/Library/Frameworks/NetworkExtension.framework; sourceTree = SDKROOT; };
+		49F0373F23E89EB700822CA7 /* Bliss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bliss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		49F0374223E89EB700822CA7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		49F0374623E89EB700822CA7 /* ViewControllerLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerLogin.swift; sourceTree = "<group>"; };
+		49F0374923E89EB700822CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		49F0374C23E89EB700822CA7 /* Bliss.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bliss.xcdatamodel; sourceTree = "<group>"; };
+		49F0374E23E89EB900822CA7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		49F0375123E89EB900822CA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		49F0375323E89EB900822CA7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF3C412701AEA5180E930A18 /* Pods-Bliss.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bliss.release.xcconfig"; path = "Target Support Files/Pods-Bliss/Pods-Bliss.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		49F0373C23E89EB700822CA7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				495F72D623EBC17100FCBCB1 /* WebKit.framework in Frameworks */,
+				49E6FACE23F8E86200B8439B /* NetworkExtension.framework in Frameworks */,
+				3C9B435032290461F701BEBB /* Pods_Bliss.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		495F72D323EBBFA100FCBCB1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				49E6FACD23F8E86200B8439B /* NetworkExtension.framework */,
+				4926A6EA23EF47E80091E7AD /* Fuzi.framework */,
+				495F72D423EBBFA100FCBCB1 /* WebKit.framework */,
+				46D90C9BFC798C76FBDD3EF5 /* Pods_Bliss.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		49F0373623E89EB700822CA7 = {
+			isa = PBXGroup;
+			children = (
+				49F0374123E89EB700822CA7 /* Bliss */,
+				49F0374023E89EB700822CA7 /* Products */,
+				495F72D323EBBFA100FCBCB1 /* Frameworks */,
+				BC59899338BDA8B496D30702 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		49F0374023E89EB700822CA7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				49F0373F23E89EB700822CA7 /* Bliss.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49F0374123E89EB700822CA7 /* Bliss */ = {
+			isa = PBXGroup;
+			children = (
+				49E6FAC623F8D13E00B8439B /* GoogleService-Info.plist */,
+				49E6FAC823F8D16500B8439B /* jquery.js */,
+				495F72D923EBC1FC00FCBCB1 /* Bliss.entitlements */,
+				49F0374223E89EB700822CA7 /* AppDelegate.swift */,
+				49F0374623E89EB700822CA7 /* ViewControllerLogin.swift */,
+				49F0374823E89EB700822CA7 /* Main.storyboard */,
+				49F0374E23E89EB900822CA7 /* Assets.xcassets */,
+				49F0375023E89EB900822CA7 /* LaunchScreen.storyboard */,
+				49F0375323E89EB900822CA7 /* Info.plist */,
+				49F0374B23E89EB700822CA7 /* Bliss.xcdatamodeld */,
+				495F72C723EB9EB600FCBCB1 /* ViewControllerBliss.swift */,
+				0A004E7824650EB4003CAA78 /* ViewControllerSettings.swift */,
+				496845CC24A4670600ACC7C6 /* DiscordWebhookWrapper.swift */,
+				496845CD24A4670600ACC7C6 /* WebhookEntity+CoreDataClass.swift */,
+				496845CB24A4670600ACC7C6 /* WebhookEntity+CoreDataProperties.swift */,
+				495F72C923EBB3E000FCBCB1 /* BaseTabBarController.swift */,
+				495F72CB23EBB87A00FCBCB1 /* ViewControllerTabOne.swift */,
+				495F72CD23EBB96C00FCBCB1 /* ViewControllerTabTwo.swift */,
+				495F72CF23EBB9C500FCBCB1 /* ViewControllerTabThree.swift */,
+				495F72D123EBB9DE00FCBCB1 /* ViewControllerTabFour.swift */,
+				4926A6EE23F0DB210091E7AD /* DataModelManager.swift */,
+				4926A6F023F0DB600091E7AD /* CDStack.swift */,
+				4926A6F223F0DC1F0091E7AD /* DataModelClasses.swift */,
+				4926A6F423F0E83B0091E7AD /* TabViewController.swift */,
+				49E6FACA23F8D56900B8439B /* FirebaseAuthManager.swift */,
+				49E6FACC23F8D8A600B8439B /* bliss-Bridging-Header.h */,
+				499826BE244D42AE001F2305 /* WebApiRequest.swift */,
+			);
+			path = Bliss;
+			sourceTree = "<group>";
+		};
+		BC59899338BDA8B496D30702 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				381927BF465F807B3F5506FE /* Pods-Bliss.debug.xcconfig */,
+				FF3C412701AEA5180E930A18 /* Pods-Bliss.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		49F0373E23E89EB700822CA7 /* Bliss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49F0375623E89EB900822CA7 /* Build configuration list for PBXNativeTarget "Bliss" */;
+			buildPhases = (
+				D5E78029E24A698A162F8174 /* [CP] Check Pods Manifest.lock */,
+				49F0373B23E89EB700822CA7 /* Sources */,
+				49F0373C23E89EB700822CA7 /* Frameworks */,
+				49F0373D23E89EB700822CA7 /* Resources */,
+				625E6E8657FA9C028EB98FAB /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bliss;
+			productName = Bliss;
+			productReference = 49F0373F23E89EB700822CA7 /* Bliss.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		49F0373723E89EB700822CA7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = KSG;
+				TargetAttributes = {
+					49F0373E23E89EB700822CA7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 49F0373A23E89EB700822CA7 /* Build configuration list for PBXProject "Bliss" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 49F0373623E89EB700822CA7;
+			productRefGroup = 49F0374023E89EB700822CA7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				49F0373E23E89EB700822CA7 /* Bliss */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		49F0373D23E89EB700822CA7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E6FAC923F8D16500B8439B /* jquery.js in Resources */,
+				49F0375223E89EB900822CA7 /* LaunchScreen.storyboard in Resources */,
+				49E6FAC723F8D13E00B8439B /* GoogleService-Info.plist in Resources */,
+				49F0374F23E89EB900822CA7 /* Assets.xcassets in Resources */,
+				49F0374A23E89EB700822CA7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		625E6E8657FA9C028EB98FAB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bliss/Pods-Bliss-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Bliss/Pods-Bliss-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Bliss/Pods-Bliss-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5E78029E24A698A162F8174 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Bliss-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		49F0373B23E89EB700822CA7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A004E7924650EB4003CAA78 /* ViewControllerSettings.swift in Sources */,
+				49F0374723E89EB700822CA7 /* ViewControllerLogin.swift in Sources */,
+				495F72C823EB9EB600FCBCB1 /* ViewControllerBliss.swift in Sources */,
+				495F72CA23EBB3E000FCBCB1 /* BaseTabBarController.swift in Sources */,
+				496845CE24A4670600ACC7C6 /* WebhookEntity+CoreDataProperties.swift in Sources */,
+				495F72CC23EBB87A00FCBCB1 /* ViewControllerTabOne.swift in Sources */,
+				496845D024A4670600ACC7C6 /* WebhookEntity+CoreDataClass.swift in Sources */,
+				4926A6F523F0E83B0091E7AD /* TabViewController.swift in Sources */,
+				49F0374323E89EB700822CA7 /* AppDelegate.swift in Sources */,
+				495F72D023EBB9C500FCBCB1 /* ViewControllerTabThree.swift in Sources */,
+				49F0374D23E89EB700822CA7 /* Bliss.xcdatamodeld in Sources */,
+				49E6FACB23F8D56900B8439B /* FirebaseAuthManager.swift in Sources */,
+				495F72D223EBB9DE00FCBCB1 /* ViewControllerTabFour.swift in Sources */,
+				4926A6F323F0DC1F0091E7AD /* DataModelClasses.swift in Sources */,
+				496845CF24A4670600ACC7C6 /* DiscordWebhookWrapper.swift in Sources */,
+				499826BF244D42AE001F2305 /* WebApiRequest.swift in Sources */,
+				4926A6EF23F0DB210091E7AD /* DataModelManager.swift in Sources */,
+				4926A6F123F0DB600091E7AD /* CDStack.swift in Sources */,
+				495F72CE23EBB96C00FCBCB1 /* ViewControllerTabTwo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		49F0374823E89EB700822CA7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F0374923E89EB700822CA7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		49F0375023E89EB900822CA7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				49F0375123E89EB900822CA7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		49F0375423E89EB900822CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		49F0375523E89EB900822CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		49F0375723E89EB900822CA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 381927BF465F807B3F5506FE /* Pods-Bliss.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bliss/Bliss.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2GKW4DTXJ;
+				INFOPLIST_FILE = Bliss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.66;
+				PRODUCT_BUNDLE_IDENTIFIER = KSG.Bliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bliss/bliss-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		49F0375823E89EB900822CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF3C412701AEA5180E930A18 /* Pods-Bliss.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Bliss/Bliss.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B2GKW4DTXJ;
+				INFOPLIST_FILE = Bliss/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 6.66;
+				PRODUCT_BUNDLE_IDENTIFIER = KSG.Bliss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bliss/bliss-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49F0373A23E89EB700822CA7 /* Build configuration list for PBXProject "Bliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F0375423E89EB900822CA7 /* Debug */,
+				49F0375523E89EB900822CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		49F0375623E89EB900822CA7 /* Build configuration list for PBXNativeTarget "Bliss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49F0375723E89EB900822CA7 /* Debug */,
+				49F0375823E89EB900822CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		49F0374B23E89EB700822CA7 /* Bliss.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				49F0374C23E89EB700822CA7 /* Bliss.xcdatamodel */,
+			);
+			currentVersion = 49F0374C23E89EB700822CA7 /* Bliss.xcdatamodel */;
+			path = Bliss.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 49F0373723E89EB700822CA7 /* Project object */;
+}
